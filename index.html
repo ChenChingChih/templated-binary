@@ -1,0 +1,311 @@
+<!DOCTYPE HTML>
+<!--
+	Binary by TEMPLATED
+	templated.co @templatedco
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
+<html>
+	<head>
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-119748230-1"></script>
+		<script>
+		  window.dataLayer = window.dataLayer || [];
+		  function gtag(){dataLayer.push(arguments);}
+		  gtag('js', new Date());
+
+		  gtag('config', 'UA-119748230-1');
+		</script>
+
+
+<!--引入bootstrap-->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+
+<!--add the responsive viewport meta tag-->
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<!--flip card css-->
+<style>
+.card {
+  margin: 10px 10px;
+}
+
+/* Flip Cards CSS */
+.card-container {
+  display: grid;
+  perspective: 700px;
+}
+
+.card-flip {
+  display: grid;
+  grid-template: 1fr / 1fr;
+  grid-template-areas: "frontAndBack";
+  transform-style: preserve-3d;
+  transition: all 0.7s ease;
+}
+
+.card-flip div {
+  backface-visibility: hidden;
+  transform-style: preserve-3d;
+}
+
+.front {
+  grid-area: frontAndBack;
+}
+
+.back {
+  grid-area: frontAndBack;
+  transform: rotateY(-180deg);
+}
+
+.card-container:hover .card-flip {
+  transform: rotateY(180deg);
+}
+</style>
+		<title>經濟部落客競賽-台中</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body>
+
+		<!-- Header -->
+			<header id="header">
+				<a href="index.html" class="logo"><strong>Econblog</strong> by 台中幫</a>
+				<nav>
+					<a href="#menu">Menu</a>
+				</nav>
+			</header>
+
+		<!-- Nav -->
+			<nav id="menu">
+				<ul class="links">
+					<li><a href="https://chnejohnson.github.io/templated-binary/generic.html">交通狀況</a></li>
+					<li><a href="https://chnejohnson.github.io/templated-binary/generic2.html">舉債狀況</a></li>
+					<li><a href="https://chnejohnson.github.io/templated-binary/generic3.html">環境狀況</a></li>
+						<li><a href="https://chnejohnson.github.io/templated-binary/generic4.html">環保支出與結論</a></li>
+				</ul>
+			</nav>
+
+		<!-- Banner -->
+			<section id="banner">
+				<div class="inner">
+					<h1>對你來說，台中是什麼樣的地方？</h1>
+					<ul class="actions">
+						<li><a href="#one" class="button alt scrolly big">Continue</a></li>
+					</ul>
+				</div>
+			</section>
+
+
+
+
+		<!-- One -->
+			<article id="one" class="post style1">
+				<div class="image">
+					<img src="images/BRT首頁2.jpg" alt="" data-position="75% center" />
+				</div>
+				<div class="content">
+					<div class="inner">
+						<header>
+							<h2><a href="generic.html">大眾運輸系統</a></h2>
+
+						</header>
+						<!--首頁概要文字  -->
+<p>台中市的人口於2017年超越了高雄，幾年來被評選為台灣最宜居的城市，儘管經濟發展不如台北發達，然而相對低廉的物價以及悠閒的生活步調，都讓台中成為台灣人口拉力的都市之一。
+</p>
+
+						<ul class="actions">
+							<li><a href="generic.html" class="button alt">Read More</a></li>
+						</ul>
+					</div>
+					<div class="postnav">
+						<a href="#" class="prev disabled"><span class="icon fa-chevron-up"></span></a>
+						<a href="#two" class="scrolly next"><span class="icon fa-chevron-down"></span></a>
+					</div>
+				</div>
+			</article>
+
+		<!-- Two -->
+			<article id="two" class="post invert style1 alt">
+				<div class="image">
+					<img src="images/市府.jpg" alt="" data-position="10% center" />
+				</div>
+				<div class="content">
+					<div class="inner">
+						<header>
+							<h2><a href="generic2.html">舉債</a></h2>
+
+						</header>
+						<p>雖然台中市近幾年發展許多建設，希望讓人民過更便利的生活，但現實的是—錢從哪裡來？</p>
+						<ul class="actions">
+							<li><a href="generic2.html" class="button alt">Read More</a></li>
+						</ul>
+					</div>
+					<div class="postnav">
+						<a href="#one" class="scrolly prev"><span class="icon fa-chevron-up"></span></a>
+						<a href="#three" class="scrolly next"><span class="icon fa-chevron-down"></span></a>
+					</div>
+				</div>
+			</article>
+
+		<!-- Three -->
+			<article id="three" class="post style2">
+				<div class="image">
+					<img src="images/空氣汙染.jpg" alt="" data-position="80% center" />
+				</div>
+				<div class="content">
+					<div class="inner">
+						<header>
+							<h2><a href="generic3.html">空氣汙染</a></h2>
+
+						</header>
+						<p>走在市區街頭眺望遠方，不見藍天也不見遠景，整個城市看似被雲霧壟罩，空氣灰濛、視野模糊，近年空氣汙染日趨嚴重，民眾對市區空氣品質的意識逐漸抬頭，台灣燃煤發電的重鎮—台中火力發電廠，成為了空污議題的眾矢之的。</p>
+						<ul class="actions">
+							<li><a href="generic3.html" class="button alt">Read More</a></li>
+						</ul>
+					</div>
+					<div class="postnav">
+						<a href="#two" class="scrolly prev"><span class="icon fa-chevron-up"></span></a>
+						<a href="#four" class="scrolly next"><span class="icon fa-chevron-down"></span></a>
+					</div>
+				</div>
+			</article>
+
+			<!-- Four -->
+			<article id="four" class="post invert style2 alt">
+				<div class="image">
+					<img src="images/柳川2.jpg" alt="" data-position="60% center" />
+				</div>
+				<div class="content">
+					<div class="inner">
+						<header>
+							<h2><a href="generic4.html">環保支出與結論</a></h2>
+
+						</header>
+						<p>儘管空污的主因眾說紛紜，不論是台中火力發電廠還是汽機車廢氣排放，空氣汙染已成為一個事實。</p>
+						<ul class="actions">
+							<li><a href="generic4.html" class="button alt">Read More</a></li>
+						</ul>
+					</div>
+					<div class="postnav">
+						<a href="#three" class="scrolly prev"><span class="icon fa-chevron-up"></span></a>
+						<a href="#five" class="scrolly next"><span class="icon fa-chevron-down"></span></a>
+					</div>
+				</div>
+			</article>
+
+			<!--flip card-->
+			<div class="container">
+			  <div class="row">
+			   <!-- Card 2A -->
+			     <div class="col-md-4 card-container";>
+			       <div class="card-flip">
+			        <!-- Card 2 Front -->
+			        <div class="card front">
+			          <img src="https://nikonrumors.com/wp-content/uploads/2014/03/Nikon-1-V3-sample-photo.jpg" class="card-img-top img-fluid">
+			          <div class="card-block">
+			            <h4 class="card-title">Front Card Title</h4>
+			            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+			            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+			          </div>
+			        </div>
+			        <!-- End Card 2 Front -->
+
+			        <!-- Card 2 Back -->
+			        <div class="card back">
+			          <div class="card-header">
+			            Featured
+			          </div>
+			          <div class="card-block">
+			            <h4 class="card-title">Special title treatment</h4>
+			            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+			          </div>
+			        </div>
+			        <!-- End Card 2 Back -->
+			      </div>
+			    </div>
+					<!-- End Card 2A -->
+					<!-- Card 2B -->
+ 			     <div class="col-md-4 card-container">
+ 			       <div class="card-flip">
+ 			        <!-- Card 2 Front -->
+ 			        <div class="card front">
+ 			          <img src="https://nikonrumors.com/wp-content/uploads/2014/03/Nikon-1-V3-sample-photo.jpg" class="card-img-top img-fluid">
+ 			          <div class="card-block">
+ 			            <h4 class="card-title">Front Card Title</h4>
+ 			            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+ 			            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+ 			          </div>
+ 			        </div>
+ 			        <!-- End Card 2 Front -->
+
+ 			        <!-- Card 2 Back -->
+ 			        <div class="card back">
+ 			          <div class="card-header">
+ 			            Featured
+ 			          </div>
+ 			          <div class="card-block">
+ 			            <h4 class="card-title">Special title treatment</h4>
+ 			            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+ 			          </div>
+ 			        </div>
+ 			        <!-- End Card 2 Back -->
+ 			      </div>
+ 			    </div>
+ 					<!-- End Card 2B -->
+					<!-- Card 2C -->
+ 			     <div class="col-md-4 card-container">
+ 			       <div class="card-flip">
+ 			        <!-- Card 2C Front -->
+ 			        <div class="card front">
+ 			          <img src="https://nikonrumors.com/wp-content/uploads/2014/03/Nikon-1-V3-sample-photo.jpg" class="card-img-top img-fluid">
+ 			          <div class="card-block">
+ 			            <h4 class="card-title">Front Card Title</h4>
+ 			            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+ 			            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+ 			          </div>
+ 			        </div>
+ 			        <!-- End Card 2C Front -->
+
+ 			        <!-- Card 2C Back -->
+ 			        <div class="card back">
+ 			          <div class="card-header">
+ 			            Featured
+ 			          </div>
+ 			          <div class="card-block">
+ 			            <h4 class="card-title">Special title treatment</h4>
+ 			            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+ 			          </div>
+ 			        </div>
+ 			        <!-- End Card 2C Back -->
+ 			      </div>
+ 			    </div>
+ 					<!-- End Card 2C -->
+				</div>
+			</div>
+		<!-- Footer -->
+			<footer id="footer">
+				<ul class="icons">
+					<li><a href="https://www.facebook.com/ntpueconblogcompetition/" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+					<li><a href="https://www.facebook.com/ntpueconblogcompetition/" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+					<li><a href="https://www.facebook.com/ntpueconblogcompetition/" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+				</ul>
+				<div class="copyright">
+					&copy; Untitled. Design: <a href="https://templated.co">TEMPLATED</a>. Images: <a href="https://unsplash.com">Unsplash</a>.
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+<!--引入bootstrap-->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+
+	</body>
+</html>
